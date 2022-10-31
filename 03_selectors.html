@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn jquery</title>
+	<style>
+	body{ font-family: arial; }
+	#box{
+		border: 1px solid #000;
+		padding:10px 10px;
+	}
+</style>
+</head>
+<body>
+	<h1>Shubham Seth: jquery Selectors</h1>
+	<div id="box" class="test">
+		<h2>Test Box 2</h2>
+		<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nam, repellendus veniam pariatur distinctio voluptas assumenda saepe,Quam!</p>
+	</div>
+	<ul id="list">
+		<li>Orange</li>
+		<li class="test">Banana</li>
+		<li>Grapes</li>
+		<li class="test">Apple</li>
+		<li>Guava</li>
+	</ul>
+	<!-- jquery cdn -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// $("#list").css("color","red");
+
+			// $("#list").css("border","2px solid red");
+
+			// $("#list li").css("border","2px solid red");
+
+			// $(".test").css("border","2px solid red");
+
+			// $("*").css("border","2px solid red");
+
+			// $("li:first").css("border","2px solid red");
+
+			// $("li:first-child").css("border","2px solid red");
+
+			// $("li:last").css("border","2px solid red");
+
+			// $("ul li:eq(2)").css("border","2px solid red");
+
+			// $("ul li:gt(2)").css("border","2px solid red");
+
+			$("ul li:lt(3)").css("border","2px solid red");
+		});
+	</script>
+</body>
+</html>
