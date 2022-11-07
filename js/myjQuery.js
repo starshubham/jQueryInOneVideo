@@ -59,13 +59,13 @@ $(document).ready(function () {
     // 2. Id selector - this is an example of id selector
     // $('#second').click();
 
-    // 3. Class selector - this is an example of id selector
+    // 3. Class selector - this is an example of class selector
     // $('.odd').click();
 
     // other selectors
     // $('*').click() // clicks on all the elements
-    // $('p.odd').click() // clicks on all the elements
-    // $('p:first').click() // clicks on all the elements
+    // $('p:odd').click() // clicks on only odd elements
+    // $('p:first').click() // clicks on first element of p
 
     // Events in jQuery
     // Mouse events = click, dblclick, mouseenter, mouseleave
@@ -172,9 +172,9 @@ $(document).ready(function () {
     // without reloading the whole page.
 
     // AJAX Using jQuery
-    // $.get('https://code.jquery.com/jquery-3.6.1.js', function (data, status) { alert(data); })
+    // $.get('js/jquery-3.6.1.min.js', function (data, status) { alert(data); })
 
-    // $.get('https://code.jquery.com/jquery-3.6.1.js', function (data, status) { alert(status); })
+    // $.get('js/jquery-3.6.1.min.js', function (data, status) { alert(status); })
 
     // $.post('https://code.jquery.com/jquery-3.6.1.js',
     //     { name: 'harry', channel: 'code with harry' },
